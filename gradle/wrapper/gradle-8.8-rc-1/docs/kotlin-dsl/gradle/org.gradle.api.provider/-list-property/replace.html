@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>replace</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+<link href="../../../images/gradle-logo.svg">
+<link href="../../../styles/gradle.css" rel="Stylesheet">
+</head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+                    <a class="library-name--link" href="../../../index.html">
+                            gradle
+                    </a>
+            </div>
+            <div class="library-version">
+8.8-rc-1            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":docs/java_api">API</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="member" id="content" pageIds="gradle::org.gradle.api.provider/ListProperty/replace/#org.gradle.api.Transformer&lt;? extends org.gradle.api.provider.Provider&lt;? extends java.lang.Iterable&lt;? extends T&gt;&gt;,? super org.gradle.api.provider.Provider&lt;java.util.List&lt;T&gt;&gt;&gt;/PointingToDeclaration//-1793262594">
+  <div class="breadcrumbs"><a href="../../../index.html">gradle</a><span class="delimiter">/</span><a href="../index.html">org.gradle.api.provider</a><span class="delimiter">/</span><a href="index.html">ListProperty</a><span class="delimiter">/</span><span class="current">replace</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>replace</span></span></h1>
+  </div>
+  <div class="platform-hinted  with-platform-tabs" data-platform-hinted="data-platform-hinted">
+    <div class="platform-bookmarks-row" data-toggle-list="data-toggle-list"><button class="platform-bookmark" data-filterable-current=":docs/java_api" data-filterable-set=":docs/java_api" data-active="" data-toggle=":docs/java_api">API</button></div>
+<div class="content sourceset-dependent-content" data-active="" data-togglable=":docs/java_api"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="../../org.gradle.api/-incubating/index.html"><span class="token annotation builtin">Incubating</span></a></div></div><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="replace.html"><span class="token function">replace</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">transformation<span class="token operator">: </span><a href="../../org.gradle.api/-transformer/index.html">Transformer</a><span class="token operator">&lt;</span><span class="token keyword">out </span><span><span class="token annotation builtin">@</span><span data-unresolved-link="org.jetbrains.annotations/Nullable///PointingToDeclaration/"><span class="token annotation builtin">Nullable</span></span> </span><a href="../-provider/index.html">Provider</a><span class="token operator">&lt;</span><span class="token keyword">out </span><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Iterable.html">Iterable</a><span class="token operator">&lt;</span><span class="token keyword">out </span><a href="index.html">T</a><span class="token operator">&gt;</span><span class="token operator">&gt;</span><span class="token punctuation">, </span><span class="token keyword">in </span><a href="../-provider/index.html">Provider</a><span class="token operator">&lt;</span><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/List.html">List</a><span class="token operator">&lt;</span><a href="index.html">T</a><span class="token operator">&gt;</span><span class="token operator">&gt;</span><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span><span class="clearfix"><span class="floating-right">(<a href="https://github.com/gradle/gradle/blob/000ef8587278729b8ea91c89b1c527ba0164338a/subprojects/core-api/src/main/java//org/gradle/api/provider/ListProperty.java#L129">source</a>)</span></span></div><p class="paragraph">Replaces the current value of this property with a one computed by the provided transformation. The transformation is applied to the provider of the current value, and the returned provider is used as a new value. The provider of the value can be used to derive the new value, but doesn't have to. Returning null from the transformation unsets the property. For example, the current value of a string list property can be reversed: </p><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">    def property = objects.listProperty(String).value([&quot;a&quot;, &quot;b&quot;])
+
+    property.replace { it.map { value -&gt; value.reverse() } }
+
+    println(property.get()) // [&quot;b&quot;, &quot;a&quot;]
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div> Note that simply writing <code class="lang-kotlin">property.set(property.map { ... } </code> doesn't work and will cause an exception because of a circular reference evaluation at runtime. <p class="paragraph"><strong>Further changes to the value of the property, such as calls to </strong><a href="../-has-multiple-values/set.html"><strong>set</strong></a><strong>, are not transformed, and override the replacement instead</strong>. Because of this, this method inherently depends on the order of property changes, and therefore must be used sparingly. </p><p class="paragraph"> If the value of the property is specified via a provider, then the current value provider tracks that provider. For example, changes to the upstream property are visible: </p><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">    def upstream = objects.listProperty(String).value([&quot;a&quot;, &quot;b&quot;])
+    def property = objects.listProperty(String).value(upstream)
+
+    property.replace { it.map { value -&gt; value.reverse() } }
+    upstream.set([&quot;c&quot;, &quot;d&quot;])
+
+    println(property.get()) // [&quot;d&quot;, &quot;c&quot;]
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div> The provided transformation runs <strong>eagerly</strong>, so it can capture any objects without introducing memory leaks and without breaking configuration caching. However, transformations applied to the current value provider (like <a href="../-provider/map.html">map</a>) are subject to the usual constraints. <p class="paragraph"> If the property has no explicit value set, then the current value comes from the convention. Changes to convention of this property do not affect the current value provider in this case, though upstream changes are still visible if the convention was set to a provider. If there is no convention too, then the current value is a provider without a value. The replacement value becomes the explicit value of the property.</p><span class="kdoc-tag"><h4 class="">Since</h4><p class="paragraph">8.8</p></span><h4 class="">Parameters</h4><div class="table"><div class="table-row" data-filterable-current=":docs/java_api" data-filterable-set=":docs/java_api"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><u><span><span>transformation</span></span></u></div></span></div><div><div class="title"><p class="paragraph">the transformation to apply to the current value. May return null, which unsets the property.</p></div></div></div></div></div></div>  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>Gradle Kotlin DSL Reference</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

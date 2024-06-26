@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WeatheringWithYou</string>
+    <string name="todo">TODO</string>
+    <string name="there_is_no_such_thing_as_bad">THERE IS NO SUCH THING AS BAD,</string>
+    <string name="just_soft_people">JUST SOFT PEOPLE.</string>
+    <string name="_00_00">00:00</string>
+    <string name="_000hpa">000hpa</string>
+    <string name="_00_00_c">00.00°C</string>
+    <string name="designed_by_n_gaminem">Designed by \n GAMINEM</string>
+    <string name="max_00_00_c">MAX 00.00°C</string>
+</resources>
