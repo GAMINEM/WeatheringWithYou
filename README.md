@@ -35,3 +35,7 @@ To run this project, follow these steps:
 - Kotlin
 - XML
 - Android Studio
+## APK Download
+
+[Download the latest APK file](https://github.com/GAMINEM/WeatheringWithYou/releases/latest/download/WeatheringWithYou.apk)
+
