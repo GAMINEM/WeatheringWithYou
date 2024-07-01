@@ -1,6 +1,6 @@
 # WeatheringWithYou
 
-![WeatheringWithYou Logo](https://github.com/GAMINEM/WeatheringWithYou/blob/main/app/src/main/ic_launcher-playstore.png)
+<img src="https://github.com/GAMINEM/WeatheringWithYou/blob/main/app/src/main/ic_launcher-playstore.png" width="200" height="200">
 
 WeatheringWithYou is a weather app developed using Kotlin and XML on Android Studio.
 
@@ -12,8 +12,8 @@ WeatheringWithYou is a weather app developed using Kotlin and XML on Android Stu
 
 ## Screenshots
 
-![Screenshot 1](app/src/ScreenShots.jpeg)
-![Screenshot 2](app/src/ScreenShots2.jpeg)
+<img src="app/src/ScreenShots.jpeg" width="200" height="400">
+<img src ="app/src/ScreenShots2.jpeg" width = "200" height = "400">
 
 ## Installation
 
